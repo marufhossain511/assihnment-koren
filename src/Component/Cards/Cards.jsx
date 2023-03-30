@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SideCart from '../SideCart/SideCart';
 import SingleCard from '../SingleCard/SingleCard';
 
 const Cards = () => {
@@ -10,18 +11,23 @@ const Cards = () => {
         .then(res=>res.json())
         .then(data=>setCards(data))
     },[])
-
+   const [times,setTime]=useState(0)
+    const handleTime=(time)=>{
+        setTime(time)
+    }
     return (
-        <div className='flex mx-16 gap-5'>
-            <div className='w-[60%] bg-red-700'>
+        <div className='lg:flex lg:mx-16 md:mx-16 md:flex lg:gap-5'>
+            <div className='lg:w-[60%]'>
                {
                 cards.map(card=><SingleCard 
                     key={card.id}
+
+                    handleTime={handleTime}
                     card={card}></SingleCard>)
                }
             </div>
-            <div className='w-[40%]'>
-                <h1 className='text-center bg-orange-700'>Side cart</h1>
+            <div className='lg:w-[40%]'>
+                <SideCart cards={times}></SideCart>
             </div>
         </div>
     );
