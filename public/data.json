@@ -1,0 +1,38 @@
+[
+    {
+      "id": "6425ac69a37548f44eec7d7b",
+      "authorName": "<ReferenceError: Mr is not defined>",
+      "blogTitle": "{How to get your first job as a self-taught programmer}",
+      "coverImage": "{https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80}",
+      "authorImage": "{https://img.freepik.com/free-photo/african-man-talking-phone-reading-credit-card-number-while-sitting-office_231208-754.jpg?w=740&t=st=1680190546~exp=1680191146~hmac=ae16cc3fdee9218ed24bf20c428b663dda48ab39a092d72ae000785b7375951d}",
+      "readTime": "{05}",
+      "publishDate": "{Mar 14 (4 Days ago)}"
+    },
+    {
+      "id": "6425ac69337e66301e7649ff",
+      "authorName": "<ReferenceError: Mrs is not defined>",
+      "blogTitle": "{The Pragmatic Programmer}",
+      "coverImage": "{https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb- 4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80}",
+      "authorImage": "{https://img.freepik.com/free-photo/young-woman-model-red-sweater-holding-two-cups-coffee_114579-65734.jpg?w=740&t=st=1680190444~exp=1680191044~hmac=23113e2614ecba8312896cbe27cca17ea7293b1662d921e75e18df679dbf7858}",
+      "readTime": "{10}",
+      "publishDate": "{Mar 13 (5 Days ago)}"
+    },
+    {
+      "id": "6425ac69405964501993172f",
+      "authorName": "<ReferenceError: Mr is not defined>",
+      "blogTitle": "{How to Become a great programmer}",
+      "coverImage": "{https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80}",
+      "authorImage": "{https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=740&t=st=1680190490~exp=1680191090~hmac=f0c37514f8b5dc7f72320a762bbe96fbd095bb23d4a6fd8b9a40dad998aa5154}",
+      "readTime": "{12}",
+      "publishDate": "{Mar 04 (14 Days ago)}"
+    },
+    {
+      "id": "6425ac69c1cda7f304ea1e39",
+      "authorName": "<SyntaxError: missing ) after argument list>",
+      "blogTitle": "{How to get your first job as a WebDeveloper programmer}",
+      "coverImage": "{https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80}",
+      "authorImage": "{}",
+      "readTime": "{15}",
+      "publishDate": "{Mar 16 (2 Days ago)}"
+    }
+  ]
