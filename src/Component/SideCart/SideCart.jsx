@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Title from '../title/Title';
 import { toast } from 'react-hot-toast';
 
-const SideCart = ({cards,titles,count}) => {
+const SideCart = ({cards,titles}) => {
 
 //   console.log(typeof(count));
     const uniqueTitles=[];
@@ -10,7 +10,7 @@ const SideCart = ({cards,titles,count}) => {
         if(!uniqueTitles.includes(uniqueTitle)){
             uniqueTitles.push(uniqueTitle)
         }else{
-            toast.error('This items is already exist!!!')
+            toast.error('You Have Already Bookmarked This Blog!!')
         }
     });
     const [time,setTime]=useState(cards);
@@ -25,7 +25,7 @@ const SideCart = ({cards,titles,count}) => {
                 <h1 className='text-xl font-semibold text-violet-500'>Spent time on read : {time} min</h1>
             </div>
             <div className='bg-slate-50 text-center my-4 p-5'>
-                <h1 className='text-xl font-bold text-slate-700'>Bookemarked Blogs: {count}</h1>
+                <h1 className='text-xl font-bold text-slate-700'>Bookemarked Blogs: {uniqueTitles.length}</h1>
             </div>
            
             <div>
