@@ -27,10 +27,10 @@ const Cards = () => {
     }
 
    const[cardTitles,setCardTitle]=useState([]) 
-   const[count,setCount]=useState(0)
+ 
 
    const cardTitle=(title)=>{
-    setCount(count +1)
+    // setCount(count +1)
     setCardTitle([...cardTitles,title])
 
     // if(title===previousTitle){
@@ -55,7 +55,6 @@ const Cards = () => {
             </div>
             <div className='lg:w-[40%]'>
                 <SideCart 
-                count={count}
                 titles={cardTitles}
                 cards={times}
                 ></SideCart>

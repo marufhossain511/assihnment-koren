@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Title from '../title/Title';
+import { toast } from 'react-hot-toast';
 
-const SideCart = ({cards,titles, count}) => {
+const SideCart = ({cards,titles}) => {
+    const[count,setCount]=useState(0)
+    
     const uniqueTitles=[];
     titles.forEach(uniqueTitle => {
         if(!uniqueTitles.includes(uniqueTitle)){
             uniqueTitles.push(uniqueTitle)
+            setCount(count+1);
+        }else{
+            toast.error('This items is already exist!!!')
         }
     });
     const [time,setTime]=useState(cards);
@@ -22,6 +28,7 @@ const SideCart = ({cards,titles, count}) => {
             <div className='bg-slate-100 text-center my-4 p-5'>
                 <h1 className='text-xl font-bold text-slate-700'>Bookemarked Blogs: {count}</h1>
             </div>
+           
             <div>
                 {
                     uniqueTitles.map(title=><Title title={title}></Title>)
