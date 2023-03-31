@@ -1,7 +1,10 @@
 import React from 'react';
+import { FaBookmark } from "react-icons/fa";
 const SingleCard = ({card,handleTime,title}) => {
     // console.log(card);
     const cardTitle=title;
+    // console.log(typeof(cardTitle),cardTitle,'from abcd',title);
+    
     const handleTimes=handleTime
     const{coverImage,authorName,publishDate,readTime,authorImage,blogTitle}=card
     return (
@@ -21,7 +24,7 @@ const SingleCard = ({card,handleTime,title}) => {
                  </div>
                 <div className=' flex'>
                     <p>{readTime} min read</p>
-                    <button onClick={()=>cardTitle(blogTitle)} className='ml-3'>add</button>
+                    <button onClick={()=>cardTitle(blogTitle)} className='ml-3'><FaBookmark/></button>
                 </div>
             </div>
             <h1 className='text-lg ml-5 font-bold p-2 '>{blogTitle}</h1>

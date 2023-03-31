@@ -26,11 +26,13 @@ const Cards = () => {
         }
     }
 
-   const[cardTitles,setCardTitle]=useState('') 
+   const[cardTitles,setCardTitle]=useState([]) 
    const[count,setCount]=useState(0)
+
    const cardTitle=(title)=>{
     setCount(count +1)
-    setCardTitle(title)
+    setCardTitle([...cardTitles,title])
+
     // if(title===previousTitle){
     //     alert('already exists')
     // }
@@ -54,7 +56,7 @@ const Cards = () => {
             <div className='lg:w-[40%]'>
                 <SideCart 
                 count={count}
-                title={cardTitles}
+                titles={cardTitles}
                 cards={times}
                 ></SideCart>
             </div>
