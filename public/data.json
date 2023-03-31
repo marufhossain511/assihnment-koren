@@ -5,7 +5,7 @@
       "blogTitle": "How to get your first job as a self-taught programmer",
       "coverImage": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
       "authorImage": "https://img.freepik.com/free-photo/confident-handsome-businessman-suit-pointing-finger_171337-18603.jpg?w=740&t=st=1680193540~exp=1680194140~hmac=0aa8f4e1851a8aa021034adf0a3d94cec1cd31f655e62c7bdfa73578c2bbff3a",
-      "readTime": "05",
+      "readTime": 5,
       "publishDate": "Mar 14 (4 Days ago)"
     },
     {
@@ -14,7 +14,7 @@
       "blogTitle": "The Pragmatic Programmer",
       "coverImage": "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "authorImage": "https://img.freepik.com/free-photo/young-woman-model-red-sweater-holding-two-cups-coffee_114579-65734.jpg?w=740&t=st=1680190444~exp=1680191044~hmac=23113e2614ecba8312896cbe27cca17ea7293b1662d921e75e18df679dbf7858",
-      "readTime": "10",
+      "readTime": 10,
       "publishDate": "Mar 13 (5 Days ago)"
     },
     {
@@ -23,7 +23,7 @@
       "blogTitle": "How to Become a great programmer",
       "coverImage": "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "authorImage": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=740&t=st=1680190490~exp=1680191090~hmac=f0c37514f8b5dc7f72320a762bbe96fbd095bb23d4a6fd8b9a40dad998aa5154",
-      "readTime": "12",
+      "readTime": 12,
       "publishDate": "Mar 04 (14 Days ago)"
     },
     {
@@ -32,7 +32,7 @@
       "blogTitle": "How to get your first job as a WebDeveloper programmer",
       "coverImage": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "authorImage": "https://img.freepik.com/free-photo/african-man-talking-phone-reading-credit-card-number-while-sitting-office_231208-754.jpg?w=740&t=st=1680190546~exp=1680191146~hmac=ae16cc3fdee9218ed24bf20c428b663dda48ab39a092d72ae000785b7375951d",
-      "readTime": "15",
+      "readTime": 15,
       "publishDate": "Mar 16 (2 Days ago)"
     }
   ]

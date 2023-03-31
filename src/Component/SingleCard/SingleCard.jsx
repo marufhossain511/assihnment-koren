@@ -18,13 +18,14 @@ const SingleCard = ({card,handleTime}) => {
                     </div>
 
                  </div>
-                <div className=' '>
+                <div className=' flex'>
                     <p>{readTime} min read</p>
+                    <button className='ml-3'>add</button>
                 </div>
             </div>
             <h1 className='text-lg ml-5 font-bold p-2 '>{blogTitle}</h1>
            <div className="card-actions justify-start">
-             <button onClick={()=>handleTimes(card)} className="text-blue-500 underline ml-8 mb-5 text-sm btn btn-active btn-link">Mark as read</button>
+             <button onClick={()=>handleTimes(readTime)} className="text-blue-500 underline ml-8 mb-5 text-sm btn btn-active btn-link">Mark as read</button>
            </div>
             </div>
         </div>
