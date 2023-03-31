@@ -10,8 +10,9 @@ const Cards = () => {
         .then(res=>res.json())
         .then(data=>setCards(data))
     },[])
-    
+
    const [times,setTime]=useState(0)
+
     const handleTime=(time)=>{
         console.log(time);
         const previousTime=JSON.parse(localStorage.getItem('watchTime'));
@@ -24,6 +25,20 @@ const Cards = () => {
             setTime(time)
         }
     }
+
+   const[cardTitles,setCardTitle]=useState('') 
+   const[count,setCount]=useState(0)
+   const cardTitle=(title)=>{
+    setCount(count +1)
+    setCardTitle(title)
+    // if(title===previousTitle){
+    //     alert('already exists')
+    // }
+    // else{
+    //     localStorage.setItem('title',JSON.stringify(title))
+    // }
+}
+
     return (
         <div className='lg:flex lg:mx-16 md:mx-16 md:flex lg:gap-5'>
             <div className='lg:w-[60%]'>
@@ -31,14 +46,16 @@ const Cards = () => {
                 cards.map(card=><SingleCard 
                     key={card.id}
 
+                    title={cardTitle}
                     handleTime={handleTime}
                     card={card}></SingleCard>)
                }
             </div>
             <div className='lg:w-[40%]'>
                 <SideCart 
+                count={count}
+                title={cardTitles}
                 cards={times}
-                
                 ></SideCart>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
-const SingleCard = ({card,handleTime}) => {
+const SingleCard = ({card,handleTime,title}) => {
     // console.log(card);
+    const cardTitle=title;
     const handleTimes=handleTime
     const{coverImage,authorName,publishDate,readTime,authorImage,blogTitle}=card
     return (
@@ -20,7 +21,7 @@ const SingleCard = ({card,handleTime}) => {
                  </div>
                 <div className=' flex'>
                     <p>{readTime} min read</p>
-                    <button className='ml-3'>add</button>
+                    <button onClick={()=>cardTitle(blogTitle)} className='ml-3'>add</button>
                 </div>
             </div>
             <h1 className='text-lg ml-5 font-bold p-2 '>{blogTitle}</h1>
